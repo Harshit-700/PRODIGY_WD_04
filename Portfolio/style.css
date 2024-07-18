@@ -1,0 +1,304 @@
+
+        #navi {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            justify-content: space-around;
+            border: 2px solid black;
+            height: 100px;
+            width: 100%;
+            background-color: #7cbac3;
+            
+            
+        }
+
+        /*.navi1{
+            background-color: gold;
+            display: inline-block;
+            padding-left: 50px;
+            padding-right: 133px;
+            padding-top: 21px;
+            padding-bottom: 0px;
+            
+        }*/
+        #port {
+            display: flex;
+            position: absolute;
+
+
+            justify-content: center;
+        }
+
+        #port1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #9fcdd8a1;
+            border: 2px solid black;
+            height: 697px;
+            width: 750px;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            margin: 1px;
+        }
+
+
+        #logo {
+            border: 2px solid black;
+            height: 40px;
+            width: 200px;
+        }
+
+        #box2 {
+            border-radius: 20px;
+            display: flex;
+            border: 2px solid black;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+
+        }
+        #big_container{
+            
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            border: 2px solid black;
+            width: 100%;
+            height: 700px;
+
+        }
+
+        .container2 {
+            display: flex;
+            border: 2px solid black;
+            width: 100%;
+            height: 700px;
+            background-color: #353d4b;
+
+        }
+
+        .container3 {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            width: 100%;
+            height: auto;
+            background-color: #3498db;
+
+        }
+
+        #box-1 {
+            border-radius: 20px;
+
+            background-color: aliceblue;
+            text-align: center;
+            height: 39px;
+            width: 379px;
+            border: 2px solid black;
+
+        }
+
+        #box-3 {
+            border-radius: 20px;
+            background-color: aliceblue;
+            text-align: center;
+            align-self: center;
+            height: 39px;
+            width: 379px;
+            border: 2px solid black;
+
+        }
+
+        #box-4 {
+            border-radius: 20px;
+
+            text-align: center;
+            background-color: aliceblue;
+            height: 39px;
+            width: 379px;
+            border: 2px solid black;
+
+        }
+
+        .bxo{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-radius: 20px;
+            font-size: 36px;
+            justify-items: center;
+            border: 2px solid black;
+            margin: 20px 50px;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .fa {
+            border-radius: 5px;
+
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            height: 20px;
+            width: 20px;
+        }
+
+        /* Twitter */
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            height: 20px;
+            width: 20px;
+        }
+
+        .box {
+            border-radius: 20px;
+            display: flex;
+            justify-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 200px 50px 50px 50px;
+            border: 2px solid black;
+            height: 369px;
+            width: 379px;
+        }
+
+        #form {
+            padding: 20px 20px 20px 20px;
+            margin: 100px;
+            border: 2px solid black;
+            height: 500px;
+            width: 33%;
+            background-color: #b195ca;
+            border-radius: 20px;
+        }
+
+        #submit:hover {
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+
+        #submit {
+
+            justify-content: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 50px;
+            width: 150px;
+            color: rgb(178, 72, 111);
+            background-color: aquamarine;
+            margin: 53px 182px;
+        }
+
+        .contact_form {
+            height: 25px;
+            width: 15px;
+            font-size: 20px;
+            padding: 30px 271px 30px 30px;
+            margin: auto 10px;
+        }
+
+        #cont {
+            margin: auto;
+            padding: 18px 100px 10px 10px;
+            font-size: 25px;
+        }
+
+        #img1 {
+            /*padding:  10px 10px 10px 10px; */
+            border-radius: 20px;
+            height: 369px;
+            width: 379px;
+        }
+
+        #img2 {
+            border-radius: 20px;
+
+            height: 369px;
+            width: 379px;
+        }
+
+        #img3 {
+            border-radius: 20px;
+
+            height: 369px;
+            width: 379px;
+        }
+
+        #my interest {
+            text-align: center;
+            font-size: 25px;
+            font-family: cursive;
+        }
+
+        .nav1 {
+            margin-top: 38px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            /* border: 2px solid black; */
+            border-radius: 5px;
+        }
+
+        .nav1:hover {
+            cursor: pointer;
+            color: rgb(204, 80, 80);
+        }
+
+        #logo_img {
+            height: 40px;
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        #port2 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            border: 2px solid black;
+            height: 697px;
+            width: 750px;
+            box-sizing: border-box;
+            align-items: center;
+            margin: 1px;
+            background-color: #353d4b;
+
+        }
+        #profile_pic{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            margin: -1px -1px;
+            height: 679px;
+            width: 396px;
+            
+        }
+    
